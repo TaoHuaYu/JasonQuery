@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87BF5097-DE0D-4BDA-89C2-3E87D47FFD57}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JasonQuery</RootNamespace>
+    <AssemblyName>JasonQuery</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_database_administrator.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1Excel.4.5.2">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.C1Excel.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.C1Zip.4.5.2">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.C1Zip.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.4.5.2">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Command.4.5.2">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1Command.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Input.4.5.2">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1Input.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Ribbon.4.5.2">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1Ribbon.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Themes.4.5.2">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1Themes.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Themes.Extended.4.5.2">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1Themes.Extended.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1TrueDBGrid.4.5.2">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1TrueDBGrid.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1TrueDBGrid.Excel.4.5.2">
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\WinForms Edition\bin\v4.5.2\C1.Win.C1TrueDBGrid.Excel.4.5.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data, Version=5.0.2551.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Devart\dotConnect\Oracle\Devart.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.MySql, Version=8.19.1944.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Devart.Data.MySql.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.Oracle, Version=9.13.1127.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Devart\dotConnect\Oracle\Devart.Data.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.PostgreSql, Version=7.19.11759.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Devart.Data.PostgreSql.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.SQLite, Version=5.19.2066.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Devart.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.SqlServer, Version=3.0.397.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Devart.Data.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.IWshRuntimeLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.IWshRuntimeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="JasonLibrary">
+      <HintPath>..\JasonLibrary\bin\Debug\JasonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.112.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\clsCheckForUpdates.cs" />
+    <Compile Include="Class\clsDBCommon.cs" />
+    <Compile Include="Class\clsMessageBoxManager.cs" />
+    <Compile Include="Class\clsMyGlobal.cs" />
+    <Compile Include="Class\clsMySQLReader.cs" />
+    <Compile Include="Class\clsOracleReader.cs" />
+    <Compile Include="Class\clsPostgreSQLReader.cs" />
+    <Compile Include="Class\clsSQLCipherReader.cs" />
+    <Compile Include="Class\clsSQLiteReader.cs" />
+    <Compile Include="Class\clsSQLServerReader.cs" />
+    <Compile Include="Class\clsTextEncode.cs" />
+    <Compile Include="Class\clsTextEngine.cs" />
+    <Compile Include="FindReplace\CharacterRange.cs" />
+    <Compile Include="FindReplace\FindOption.cs" />
+    <Compile Include="FindReplace\FindReplace.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FindReplace\frmFindReplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindReplace\frmFindReplace.Designer.cs">
+      <DependentUpon>frmFindReplace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmCellViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmCellViewer.designer.cs">
+      <DependentUpon>frmCellViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmCheckForUpdates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmCheckForUpdates.Designer.cs">
+      <DependentUpon>frmCheckForUpdates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmConnect.Designer.cs">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmConnectExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmConnectExport.designer.cs">
+      <DependentUpon>frmConnectExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmConnectImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmConnectImport.designer.cs">
+      <DependentUpon>frmConnectImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmCustomPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmCustomPassword.Designer.cs">
+      <DependentUpon>frmCustomPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmEncryptionMothed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmEncryptionMothed.Designer.cs">
+      <DependentUpon>frmEncryptionMothed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmExportToFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmExportToFile.Designer.cs">
+      <DependentUpon>frmExportToFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmFileSplitter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmFileSplitter.designer.cs">
+      <DependentUpon>frmFileSplitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmGenerateSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmGenerateSQL.designer.cs">
+      <DependentUpon>frmGenerateSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmHelpParametersType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmHelpParametersType.designer.cs">
+      <DependentUpon>frmHelpParametersType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmInfo.designer.cs">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmInitialize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmInitialize.designer.cs">
+      <DependentUpon>frmInitialize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmProgressInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmProgressInfo.designer.cs">
+      <DependentUpon>frmProgressInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmSchemaBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmSchemaBrowser.Designer.cs">
+      <DependentUpon>frmSchemaBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmOptions.Designer.cs">
+      <DependentUpon>frmOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmQuery.Designer.cs">
+      <DependentUpon>frmQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmSchemaSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmSchemaSearch.designer.cs">
+      <DependentUpon>frmSchemaSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmSingleRecordViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmSingleRecordViewer.designer.cs">
+      <DependentUpon>frmSingleRecordViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmSQLHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmSQLHistory.designer.cs">
+      <DependentUpon>frmSQLHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmSQLStatementViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmSQLStatementViewer.designer.cs">
+      <DependentUpon>frmSQLStatementViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmParameters.designer.cs">
+      <DependentUpon>frmParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FindReplace\frmFindReplace.resx">
+      <DependentUpon>frmFindReplace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmCellViewer.resx">
+      <DependentUpon>frmCellViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmCheckForUpdates.resx">
+      <DependentUpon>frmCheckForUpdates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmConnect.resx">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmConnectExport.resx">
+      <DependentUpon>frmConnectExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmConnectImport.resx">
+      <DependentUpon>frmConnectImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmCustomPassword.resx">
+      <DependentUpon>frmCustomPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmEncryptionMothed.resx">
+      <DependentUpon>frmEncryptionMothed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmExportToFile.resx">
+      <DependentUpon>frmExportToFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmFileSplitter.resx">
+      <DependentUpon>frmFileSplitter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmGenerateSQL.resx">
+      <DependentUpon>frmGenerateSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmHelpParametersType.resx">
+      <DependentUpon>frmHelpParametersType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmInfo.resx">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmInitialize.resx">
+      <DependentUpon>frmInitialize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmProgressInfo.resx">
+      <DependentUpon>frmProgressInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmSchemaBrowser.resx">
+      <DependentUpon>frmSchemaBrowser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmOptions.resx">
+      <DependentUpon>frmOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmQuery.resx">
+      <DependentUpon>frmQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmSchemaSearch.resx">
+      <DependentUpon>frmSchemaSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmSingleRecordViewer.resx">
+      <DependentUpon>frmSingleRecordViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmSQLHistory.resx">
+      <DependentUpon>frmSQLHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmSQLStatementViewer.resx">
+      <DependentUpon>frmSQLStatementViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmParameters.resx">
+      <DependentUpon>frmParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Files\JasonQuery.db" />
+    <EmbeddedResource Include="Files\newSQLCipher.db" />
+    <EmbeddedResource Include="Files\newSQLite3.db" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MagicLibrary\MagicLibrary.csproj">
+      <Project>{f284392f-6873-4be5-99ba-24793532d930}</Project>
+      <Name>MagicLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScintillaNET\ScintillaNET.csproj">
+      <Project>{22ae2386-60f1-476e-9303-61cdb0aac4cf}</Project>
+      <Name>ScintillaNET</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Image\MySQL 16x16.png" />
+    <EmbeddedResource Include="Image\PostgreSQL 16x16.png" />
+    <EmbeddedResource Include="Image\SQL Server 16x16.ico" />
+    <Content Include="icons8_database_administrator.ico" />
+    <EmbeddedResource Include="Image\cellviewer.ico" />
+    <EmbeddedResource Include="Image\copy 16x16-2.ico" />
+    <EmbeddedResource Include="Image\cut 16x16.ico" />
+    <EmbeddedResource Include="Image\execute 16x16.ico" />
+    <EmbeddedResource Include="Image\execute block 16x16.ico" />
+    <EmbeddedResource Include="Image\format 16x16.ico" />
+    <EmbeddedResource Include="Image\generate 16x16.ico" />
+    <EmbeddedResource Include="Image\literature 16x16.ico" />
+    <EmbeddedResource Include="Image\lowercase 16x16.ico" />
+    <EmbeddedResource Include="Image\new 16x16-1.ico" />
+    <EmbeddedResource Include="Image\open 16x16.ico" />
+    <EmbeddedResource Include="Image\paste 16x16.ico" />
+    <EmbeddedResource Include="Image\replace 16x16.ico" />
+    <EmbeddedResource Include="Image\search 16x16.ico" />
+    <EmbeddedResource Include="Image\select all 16x16-2.ico" />
+    <EmbeddedResource Include="Image\select current 16x16.ico" />
+    <EmbeddedResource Include="Image\uppercase 16x16.ico" />
+    <EmbeddedResource Include="Image\copy2script 16x16.ico" />
+    <EmbeddedResource Include="Image\copy2script current 16x16.ico" />
+    <EmbeddedResource Include="Image\copyin 16x16.ico" />
+    <EmbeddedResource Include="Image\export 16x16.ico" />
+    <EmbeddedResource Include="Image\freeze 16x16.ico" />
+    <EmbeddedResource Include="Image\unfreeze 16x16.ico" />
+    <EmbeddedResource Include="Image\paste2editor 16x16.ico" />
+    <EmbeddedResource Include="Image\exit 16x16.ico" />
+    <EmbeddedResource Include="Image\add 16x16.ico" />
+    <EmbeddedResource Include="Image\remove 16x16.ico" />
+    <EmbeddedResource Include="Image\select block 16x16.ico" />
+    <EmbeddedResource Include="Image\redo 16x16.ico" />
+    <EmbeddedResource Include="Image\undo 16x16.ico" />
+    <EmbeddedResource Include="Image\indent 16x16.ico" />
+    <EmbeddedResource Include="Image\unindent 16x16.ico" />
+    <EmbeddedResource Include="Image\delete 16x16.ico" />
+    <EmbeddedResource Include="Image\comment 16x16.ico" />
+    <EmbeddedResource Include="Image\comment_b 16x16.ico" />
+    <EmbeddedResource Include="Image\uncomment 16x16.ico" />
+    <EmbeddedResource Include="Image\uncomment_b 16x16.ico" />
+    <EmbeddedResource Include="Image\panel_C1Status.png" />
+    <EmbeddedResource Include="Image\panel_C1Status_Dark.png" />
+    <EmbeddedResource Include="Image\Count 24x24 new2 Dark.ico" />
+    <Content Include="JasonQuery.ico" />
+    <EmbeddedResource Include="Image\SortDn.bmp" />
+    <EmbeddedResource Include="Image\SortUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

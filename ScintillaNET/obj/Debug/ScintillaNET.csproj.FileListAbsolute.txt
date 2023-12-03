@@ -1,0 +1,7 @@
+D:\code\JasonQuery\ScintillaNET\bin\Debug\ScintillaNET.xml
+D:\code\JasonQuery\ScintillaNET\bin\Debug\ScintillaNET.dll
+D:\code\JasonQuery\ScintillaNET\bin\Debug\ScintillaNET.pdb
+D:\code\JasonQuery\ScintillaNET\obj\Debug\ScintillaNET.csproj.AssemblyReference.cache
+D:\code\JasonQuery\ScintillaNET\obj\Debug\ScintillaNET.csproj.CoreCompileInputs.cache
+D:\code\JasonQuery\ScintillaNET\obj\Debug\ScintillaNET.dll
+D:\code\JasonQuery\ScintillaNET\obj\Debug\ScintillaNET.pdb

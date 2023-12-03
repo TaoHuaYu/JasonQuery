@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>C1.Win.C1Themes.Extended.4.5.2</name>
+  </assembly>
+  <members>
+    <member name="T:C1.Win.C1Themes.C1ThemePicker">
+      <summary>
+            Represents a drop-down list to select one of the registered theme and apply it to assigned C1ThemeController.
+            </summary>
+    </member>
+    <member name="E:C1.Win.C1Themes.C1ThemePicker.ThemeApplying">
+      <summary>
+            Occurs before applying the selected theme. Allows to cancel the theme applying.
+            </summary>
+      <remarks>
+            This event fires after a theme name is assigned or selected in the drop-down list,
+            and allows the program to cancel the theme apply to form controls, if necessary.
+            </remarks>
+      <example>
+            The code below handles the <see cref="E:C1.Win.C1Themes.C1ThemePicker.ThemeApplying" /> event after theme name was assigned.
+            As a result, the theme name was assigned to <see cref="P:C1.Win.C1Themes.C1ThemePicker.SelectedThemeName" /> property, but the theme was not applied on the form due to "e.Handled = true".
+            <code>
+            var c1ThemePicker1 = new C1ThemePicker();
+            c1ThemePicker1.ThemeApplying += c1ThemePicker1_ThemeApplying;
+            
+            c1ThemePicker1.SelectedThemeName = "BeigeOne"; // assign theme name
+            
+            private void c1ThemePicker1_ThemeApplying(object sender, ThemeApplyingEventArgs e)
+            {
+                var themeName = e.ThemeName; // is "BeigeOne"
+                e.Handled = true;            // The theme will not be applied to the form controls
+            }
+            </code></example>
+    </member>
+    <member name="P:C1.Win.C1Themes.C1ThemePicker.SelectedThemeName">
+      <summary>
+            Gets or sets the selected theme name.
+            </summary>
+    </member>
+    <member name="P:C1.Win.C1Themes.C1ThemePicker.SelectedTheme">
+      <summary>
+            Gets the selected theme that is the C1Theme object.
+            </summary>
+    </member>
+    <member name="P:C1.Win.C1Themes.C1ThemePicker.ThemeController">
+      <summary>
+            Gets or sets the associated C1ThemeController which applies the selected theme.
+            </summary>
+    </member>
+    <member name="P:C1.Win.C1Themes.C1ThemePicker.Filter">
+      <summary>
+            Gets or sets the regular expression to determine theme names which should be displayed in drop-down list.
+            </summary>
+      <remarks>
+            The regular expression specified by the filter allows you to leave only the necessary themes in the drop-down list and in <see cref="P:C1.Win.C1Themes.C1ThemePicker.ThemeNames" /> array.
+            </remarks>
+      <example>
+            The code below in the drop-down list will leave only the names of themes containing "one" and "silver":
+            'BeigeOne', 'MacSilver', 'Office2007Silver', 'Office2010Silver'.
+            Also, the string array <see cref="P:C1.Win.C1Themes.C1ThemePicker.ThemeNames" /> will contain the same elements.
+            <code>
+            var c1ThemePicker1 = new C1ThemePicker();
+            c1ThemePicker1.Filter = "(one|silver)";
+            </code></example>
+    </member>
+    <member name="P:C1.Win.C1Themes.C1ThemePicker.ThemeNames">
+      <summary>
+            Gets the array of the registered (and filtered if filter is set) theme names.
+            </summary>
+    </member>
+    <member name="P:C1.Win.C1Themes.C1ThemePicker.ShowDefault">
+      <summary>
+            Gets or sets whether to show "(default)" item in drop-down list.
+            </summary>
+    </member>
+    <member name="M:C1.Win.C1Themes.C1ThemePicker.OnThemeApplying(C1.Win.C1Themes.ThemeApplyingEventArgs)">
+      <summary>
+            Raises the <see cref="E:C1.Win.C1Themes.C1ThemePicker.ThemeApplying" /> event.
+            </summary>
+    </member>
+    <member name="M:C1.Win.C1Themes.C1ThemePicker.OnSelectedIndexChanged">
+      <summary>
+            Raises the SelectedIndexChanged event.
+            </summary>
+    </member>
+    <member name="M:C1.Win.C1Themes.C1ThemePicker.Dispose(System.Boolean)">
+      <summary>
+            Releases the resources used by the C1ThemePicker.
+            </summary>
+      <param name="disposing">
+        <b>true</b> to release both managed and unmanaged resources; <b>false</b> to release only unmanaged resources.</param>
+    </member>
+    <member name="T:C1.Win.C1Themes.Localization.ThemePickerStrings">
+      <summary>
+            The <see cref="T:C1.Win.C1Themes.Strings" /> class contains static properties used for localization.
+            </summary>
+    </member>
+    <member name="P:C1.Win.C1Themes.Localization.ThemePickerStrings.ResourceManager">
+      <summary>
+            The <see cref="P:C1.Win.C1Themes.Localization.ThemePickerStrings.ResourceManager" /> object used for lookup resources.
+            </summary>
+      <remarks>Set this property to the valid value if 
+            you define resources in a Custom Control assembly.</remarks>
+    </member>
+    <member name="P:C1.Win.C1Themes.Localization.ThemePickerStrings.UICulture">
+      <summary>
+            Returns default <see cref="T:System.Globalization.CultureInfo" /> object used as fallback culture.
+            </summary>
+    </member>
+    <member name="T:C1.Win.C1Themes.ThemeApplyingEventArgs">
+      <summary>
+            Provides data for the <see cref="E:C1.Win.C1Themes.C1ThemePicker.ThemeApplying" /> event.
+            </summary>
+    </member>
+    <member name="M:C1.Win.C1Themes.ThemeApplyingEventArgs.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.Win.C1Themes.ThemeApplyingEventArgs" /> class.
+            </summary>
+    </member>
+    <member name="M:C1.Win.C1Themes.ThemeApplyingEventArgs.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:C1.Win.C1Themes.ThemeApplyingEventArgs" /> class.
+            </summary>
+      <param name="themeName">Name of the theme to be assigned.</param>
+    </member>
+    <member name="P:C1.Win.C1Themes.ThemeApplyingEventArgs.Handled">
+      <summary>
+            Gets or sets a value indicating whether the event was handled.
+            </summary>
+    </member>
+    <member name="P:C1.Win.C1Themes.ThemeApplyingEventArgs.ThemeName">
+      <summary>
+            Gets the name of the theme to be assigned.
+            </summary>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,845 @@
+CULTURE   SPEC.CULTURE  ENGLISH NAME
+--------------------------------------------------------------
+                        Invariant Language (Invariant Country)
+aa          aa-ET       Afar
+aa-DJ       aa-DJ       Afar (Djibouti)
+aa-ER       aa-ER       Afar (Eritrea)
+aa-ET       aa-ET       Afar (Ethiopia)
+af          af-ZA       Afrikaans
+af-NA       af-NA       Afrikaans (Namibia)
+af-ZA       af-ZA       Afrikaans (South Africa)
+agq         agq-CM      Aghem
+agq-CM      agq-CM      Aghem (Cameroon)
+ak          ak-GH       Akan
+ak-GH       ak-GH       Akan (Ghana)
+am          am-ET       Amharic
+am-ET       am-ET       Amharic (Ethiopia)
+ar          ar-SA       Arabic
+ar-001      ar-001      Arabic (World)
+ar-AE       ar-AE       Arabic (United Arab Emirates)
+ar-BH       ar-BH       Arabic (Bahrain)
+ar-DJ       ar-DJ       Arabic (Djibouti)
+ar-DZ       ar-DZ       Arabic (Algeria)
+ar-EG       ar-EG       Arabic (Egypt)
+ar-ER       ar-ER       Arabic (Eritrea)
+ar-IL       ar-IL       Arabic (Israel)
+ar-IQ       ar-IQ       Arabic (Iraq)
+ar-JO       ar-JO       Arabic (Jordan)
+ar-KM       ar-KM       Arabic (Comoros)
+ar-KW       ar-KW       Arabic (Kuwait)
+ar-LB       ar-LB       Arabic (Lebanon)
+ar-LY       ar-LY       Arabic (Libya)
+ar-MA       ar-MA       Arabic (Morocco)
+ar-MR       ar-MR       Arabic (Mauritania)
+arn         arn-CL      Mapudungun
+arn-CL      arn-CL      Mapudungun (Chile)
+ar-OM       ar-OM       Arabic (Oman)
+ar-PS       ar-PS       Arabic (Palestinian Authority)
+ar-QA       ar-QA       Arabic (Qatar)
+ar-SA       ar-SA       Arabic (Saudi Arabia)
+ar-SD       ar-SD       Arabic (Sudan)
+ar-SO       ar-SO       Arabic (Somalia)
+ar-SS       ar-SS       Arabic (South Sudan)
+ar-SY       ar-SY       Arabic (Syria)
+ar-TD       ar-TD       Arabic (Chad)
+ar-TN       ar-TN       Arabic (Tunisia)
+ar-YE       ar-YE       Arabic (Yemen)
+as          as-IN       Assamese
+asa         asa-TZ      Asu
+asa-TZ      asa-TZ      Asu (Tanzania)
+as-IN       as-IN       Assamese (India)
+ast         ast-ES      Asturian
+ast-ES      ast-ES      Asturian (Spain)
+az          az-Latn-AZ  Azerbaijani
+az-Cyrl     az-Cyrl-AZ  Azerbaijani (Cyrillic)
+az-Cyrl-AZ  az-Cyrl-AZ  Azerbaijani (Cyrillic, Azerbaijan)
+az-Latn     az-Latn-AZ  Azerbaijani (Latin)
+az-Latn-AZ  az-Latn-AZ  Azerbaijani (Latin, Azerbaijan)
+ba          ba-RU       Bashkir
+ba-RU       ba-RU       Bashkir (Russia)
+bas         bas-CM      Basaa
+bas-CM      bas-CM      Basaa (Cameroon)
+be          be-BY       Belarusian
+be-BY       be-BY       Belarusian (Belarus)
+bem         bem-ZM      Bemba
+bem-ZM      bem-ZM      Bemba (Zambia)
+bez         bez-TZ      Bena
+bez-TZ      bez-TZ      Bena (Tanzania)
+bg          bg-BG       Bulgarian
+bg-BG       bg-BG       Bulgarian (Bulgaria)
+bin         bin-NG      Edo
+bin-NG      bin-NG      Edo (Nigeria)
+bm          bm-Latn-ML  Bamanankan
+bm-Latn     bm-Latn-ML  Bamanankan (Latin)
+bm-Latn-ML  bm-Latn-ML  Bamanankan (Latin, Mali)
+bn          bn-BD       Bangla
+bn-BD       bn-BD       Bangla (Bangladesh)
+bn-IN       bn-IN       Bangla (India)
+bo          bo-CN       Tibetan
+bo-CN       bo-CN       Tibetan (China)
+bo-IN       bo-IN       Tibetan (India)
+br          br-FR       Breton
+br-FR       br-FR       Breton (France)
+brx         brx-IN      Bodo
+brx-IN      brx-IN      Bodo (India)
+bs          bs-Latn-BA  Bosnian
+bs-Cyrl     bs-Cyrl-BA  Bosnian (Cyrillic)
+bs-Cyrl-BA  bs-Cyrl-BA  Bosnian (Cyrillic, Bosnia and Herzegovina)
+bs-Latn     bs-Latn-BA  Bosnian (Latin)
+bs-Latn-BA  bs-Latn-BA  Bosnian (Latin, Bosnia and Herzegovina)
+byn         byn-ER      Blin
+byn-ER      byn-ER      Blin (Eritrea)
+ca          ca-ES       Catalan
+ca-AD       ca-AD       Catalan (Andorra)
+ca-ES       ca-ES       Catalan (Catalan)
+ca-ES-valenciaca-ES-valenciaValencian (Spain)
+ca-FR       ca-FR       Catalan (France)
+ca-IT       ca-IT       Catalan (Italy)
+ce          ce-RU       Chechen
+ce-RU       ce-RU       Chechen (Russia)
+cgg         cgg-UG      Chiga
+cgg-UG      cgg-UG      Chiga (Uganda)
+chr         chr-Cher-US Cherokee
+chr-Cher    chr-Cher-US Cherokee
+chr-Cher-US chr-Cher-US Cherokee (Cherokee, United States)
+co          co-FR       Corsican
+co-FR       co-FR       Corsican (France)
+cs          cs-CZ       Czech
+cs-CZ       cs-CZ       Czech (Czechia)
+cu          cu-RU       Church Slavic
+cu-RU       cu-RU       Church Slavic (Russia)
+cy          cy-GB       Welsh
+cy-GB       cy-GB       Welsh (United Kingdom)
+da          da-DK       Danish
+da-DK       da-DK       Danish (Denmark)
+da-GL       da-GL       Danish (Greenland)
+dav         dav-KE      Taita
+dav-KE      dav-KE      Taita (Kenya)
+de          de-DE       German
+de-AT       de-AT       German (Austria)
+de-BE       de-BE       German (Belgium)
+de-CH       de-CH       German (Switzerland)
+de-DE       de-DE       German (Germany)
+de-IT       de-IT       German (Italy)
+de-LI       de-LI       German (Liechtenstein)
+de-LU       de-LU       German (Luxembourg)
+dje         dje-NE      Zarma
+dje-NE      dje-NE      Zarma (Niger)
+dsb         dsb-DE      Lower Sorbian
+dsb-DE      dsb-DE      Lower Sorbian (Germany)
+dua         dua-CM      Duala
+dua-CM      dua-CM      Duala (Cameroon)
+dv          dv-MV       Divehi
+dv-MV       dv-MV       Divehi (Maldives)
+dyo         dyo-SN      Jola-Fonyi
+dyo-SN      dyo-SN      Jola-Fonyi (Senegal)
+dz          dz-BT       Dzongkha
+dz-BT       dz-BT       Dzongkha (Bhutan)
+ebu         ebu-KE      Embu
+ebu-KE      ebu-KE      Embu (Kenya)
+ee          ee-GH       Ewe
+ee-GH       ee-GH       Ewe (Ghana)
+ee-TG       ee-TG       Ewe (Togo)
+el          el-GR       Greek
+el-CY       el-CY       Greek (Cyprus)
+el-GR       el-GR       Greek (Greece)
+en          en-US       English
+en-001      en-001      English (World)
+en-029      en-029      English (Caribbean)
+en-150      en-150      English (Europe)
+en-AG       en-AG       English (Antigua and Barbuda)
+en-AI       en-AI       English (Anguilla)
+en-AS       en-AS       English (American Samoa)
+en-AT       en-AT       English (Austria)
+en-AU       en-AU       English (Australia)
+en-BB       en-BB       English (Barbados)
+en-BE       en-BE       English (Belgium)
+en-BI       en-BI       English (Burundi)
+en-BM       en-BM       English (Bermuda)
+en-BS       en-BS       English (Bahamas)
+en-BW       en-BW       English (Botswana)
+en-BZ       en-BZ       English (Belize)
+en-CA       en-CA       English (Canada)
+en-CC       en-CC       English (Cocos (Keeling) Islands)
+en-CH       en-CH       English (Switzerland)
+en-CK       en-CK       English (Cook Islands)
+en-CM       en-CM       English (Cameroon)
+en-CX       en-CX       English (Christmas Island)
+en-CY       en-CY       English (Cyprus)
+en-DE       en-DE       English (Germany)
+en-DK       en-DK       English (Denmark)
+en-DM       en-DM       English (Dominica)
+en-ER       en-ER       English (Eritrea)
+en-FI       en-FI       English (Finland)
+en-FJ       en-FJ       English (Fiji)
+en-FK       en-FK       English (Falkland Islands)
+en-FM       en-FM       English (Micronesia)
+en-GB       en-GB       English (United Kingdom)
+en-GD       en-GD       English (Grenada)
+en-GG       en-GG       English (Guernsey)
+en-GH       en-GH       English (Ghana)
+en-GI       en-GI       English (Gibraltar)
+en-GM       en-GM       English (Gambia)
+en-GU       en-GU       English (Guam)
+en-GY       en-GY       English (Guyana)
+en-HK       en-HK       English (Hong Kong SAR)
+en-ID       en-ID       English (Indonesia)
+en-IE       en-IE       English (Ireland)
+en-IL       en-IL       English (Israel)
+en-IM       en-IM       English (Isle of Man)
+en-IN       en-IN       English (India)
+en-IO       en-IO       English (British Indian Ocean Territory)
+en-JE       en-JE       English (Jersey)
+en-JM       en-JM       English (Jamaica)
+en-KE       en-KE       English (Kenya)
+en-KI       en-KI       English (Kiribati)
+en-KN       en-KN       English (Saint Kitts and Nevis)
+en-KY       en-KY       English (Cayman Islands)
+en-LC       en-LC       English (Saint Lucia)
+en-LR       en-LR       English (Liberia)
+en-LS       en-LS       English (Lesotho)
+en-MG       en-MG       English (Madagascar)
+en-MH       en-MH       English (Marshall Islands)
+en-MO       en-MO       English (Macao SAR)
+en-MP       en-MP       English (Northern Mariana Islands)
+en-MS       en-MS       English (Montserrat)
+en-MT       en-MT       English (Malta)
+en-MU       en-MU       English (Mauritius)
+en-MW       en-MW       English (Malawi)
+en-MY       en-MY       English (Malaysia)
+en-NA       en-NA       English (Namibia)
+en-NF       en-NF       English (Norfolk Island)
+en-NG       en-NG       English (Nigeria)
+en-NL       en-NL       English (Netherlands)
+en-NR       en-NR       English (Nauru)
+en-NU       en-NU       English (Niue)
+en-NZ       en-NZ       English (New Zealand)
+en-PG       en-PG       English (Papua New Guinea)
+en-PH       en-PH       English (Philippines)
+en-PK       en-PK       English (Pakistan)
+en-PN       en-PN       English (Pitcairn Islands)
+en-PR       en-PR       English (Puerto Rico)
+en-PW       en-PW       English (Palau)
+en-RW       en-RW       English (Rwanda)
+en-SB       en-SB       English (Solomon Islands)
+en-SC       en-SC       English (Seychelles)
+en-SD       en-SD       English (Sudan)
+en-SE       en-SE       English (Sweden)
+en-SG       en-SG       English (Singapore)
+en-SH       en-SH       English (St Helena, Ascension, Tristan da Cunha)
+en-SI       en-SI       English (Slovenia)
+en-SL       en-SL       English (Sierra Leone)
+en-SS       en-SS       English (South Sudan)
+en-SX       en-SX       English (Sint Maarten)
+en-SZ       en-SZ       English (Swaziland)
+en-TC       en-TC       English (Turks and Caicos Islands)
+en-TK       en-TK       English (Tokelau)
+en-TO       en-TO       English (Tonga)
+en-TT       en-TT       English (Trinidad and Tobago)
+en-TV       en-TV       English (Tuvalu)
+en-TZ       en-TZ       English (Tanzania)
+en-UG       en-UG       English (Uganda)
+en-UM       en-UM       English (U.S. Outlying Islands)
+en-US       en-US       English (United States)
+en-VC       en-VC       English (Saint Vincent and the Grenadines)
+en-VG       en-VG       English (British Virgin Islands)
+en-VI       en-VI       English (U.S. Virgin Islands)
+en-VU       en-VU       English (Vanuatu)
+en-WS       en-WS       English (Samoa)
+en-ZA       en-ZA       English (South Africa)
+en-ZM       en-ZM       English (Zambia)
+en-ZW       en-ZW       English (Zimbabwe)
+eo          eo-001      Esperanto
+eo-001      eo-001      Esperanto (World)
+es          es-ES       Spanish
+es-419      es-419      Spanish (Latin America)
+es-AR       es-AR       Spanish (Argentina)
+es-BO       es-BO       Spanish (Bolivia)
+es-BR       es-BR       Spanish (Brazil)
+es-BZ       es-BZ       Spanish (Belize)
+es-CL       es-CL       Spanish (Chile)
+es-CO       es-CO       Spanish (Colombia)
+es-CR       es-CR       Spanish (Costa Rica)
+es-CU       es-CU       Spanish (Cuba)
+es-DO       es-DO       Spanish (Dominican Republic)
+es-EC       es-EC       Spanish (Ecuador)
+es-ES       es-ES       Spanish (Spain, International Sort)
+es-GQ       es-GQ       Spanish (Equatorial Guinea)
+es-GT       es-GT       Spanish (Guatemala)
+es-HN       es-HN       Spanish (Honduras)
+es-MX       es-MX       Spanish (Mexico)
+es-NI       es-NI       Spanish (Nicaragua)
+es-PA       es-PA       Spanish (Panama)
+es-PE       es-PE       Spanish (Peru)
+es-PH       es-PH       Spanish (Philippines)
+es-PR       es-PR       Spanish (Puerto Rico)
+es-PY       es-PY       Spanish (Paraguay)
+es-SV       es-SV       Spanish (El Salvador)
+es-US       es-US       Spanish (United States)
+es-UY       es-UY       Spanish (Uruguay)
+es-VE       es-VE       Spanish (Venezuela)
+et          et-EE       Estonian
+et-EE       et-EE       Estonian (Estonia)
+eu          eu-ES       Basque
+eu-ES       eu-ES       Basque (Basque)
+ewo         ewo-CM      Ewondo
+ewo-CM      ewo-CM      Ewondo (Cameroon)
+fa          fa-IR       Persian
+fa-IR       fa-IR       Persian (Iran)
+ff          ff-Latn-SN  Fulah
+ff-CM       ff-CM       Fulah (Cameroon)
+ff-GN       ff-GN       Fulah (Guinea)
+ff-Latn     ff-Latn-SN  Fulah
+ff-Latn-SN  ff-Latn-SN  Fulah (Latin, Senegal)
+ff-MR       ff-MR       Fulah (Mauritania)
+ff-NG       ff-NG       Fulah (Nigeria)
+fi          fi-FI       Finnish
+fi-FI       fi-FI       Finnish (Finland)
+fil         fil-PH      Filipino
+fil-PH      fil-PH      Filipino (Philippines)
+fo          fo-FO       Faroese
+fo-DK       fo-DK       Faroese (Denmark)
+fo-FO       fo-FO       Faroese (Faroe Islands)
+fr          fr-FR       French
+fr-029      fr-029      French (Caribbean)
+fr-BE       fr-BE       French (Belgium)
+fr-BF       fr-BF       French (Burkina Faso)
+fr-BI       fr-BI       French (Burundi)
+fr-BJ       fr-BJ       French (Benin)
+fr-BL       fr-BL       French (Saint Barthélemy)
+fr-CA       fr-CA       French (Canada)
+fr-CD       fr-CD       French Congo (DRC)
+fr-CF       fr-CF       French (Central African Republic)
+fr-CG       fr-CG       French (Congo)
+fr-CH       fr-CH       French (Switzerland)
+fr-CI       fr-CI       French (Côte d’Ivoire)
+fr-CM       fr-CM       French (Cameroon)
+fr-DJ       fr-DJ       French (Djibouti)
+fr-DZ       fr-DZ       French (Algeria)
+fr-FR       fr-FR       French (France)
+fr-GA       fr-GA       French (Gabon)
+fr-GF       fr-GF       French (French Guiana)
+fr-GN       fr-GN       French (Guinea)
+fr-GP       fr-GP       French (Guadeloupe)
+fr-GQ       fr-GQ       French (Equatorial Guinea)
+fr-HT       fr-HT       French (Haiti)
+fr-KM       fr-KM       French (Comoros)
+fr-LU       fr-LU       French (Luxembourg)
+fr-MA       fr-MA       French (Morocco)
+fr-MC       fr-MC       French (Monaco)
+fr-MF       fr-MF       French (Saint Martin)
+fr-MG       fr-MG       French (Madagascar)
+fr-ML       fr-ML       French (Mali)
+fr-MQ       fr-MQ       French (Martinique)
+fr-MR       fr-MR       French (Mauritania)
+fr-MU       fr-MU       French (Mauritius)
+fr-NC       fr-NC       French (New Caledonia)
+fr-NE       fr-NE       French (Niger)
+fr-PF       fr-PF       French (French Polynesia)
+fr-PM       fr-PM       French (Saint Pierre and Miquelon)
+fr-RE       fr-RE       French (Réunion)
+fr-RW       fr-RW       French (Rwanda)
+fr-SC       fr-SC       French (Seychelles)
+fr-SN       fr-SN       French (Senegal)
+fr-SY       fr-SY       French (Syria)
+fr-TD       fr-TD       French (Chad)
+fr-TG       fr-TG       French (Togo)
+fr-TN       fr-TN       French (Tunisia)
+fr-VU       fr-VU       French (Vanuatu)
+fr-WF       fr-WF       French (Wallis and Futuna)
+fr-YT       fr-YT       French (Mayotte)
+fur         fur-IT      Friulian
+fur-IT      fur-IT      Friulian (Italy)
+fy          fy-NL       Western Frisian
+fy-NL       fy-NL       Western Frisian (Netherlands)
+ga          ga-IE       Irish
+ga-IE       ga-IE       Irish (Ireland)
+gd          gd-GB       Scottish Gaelic
+gd-GB       gd-GB       Scottish Gaelic (United Kingdom)
+gl          gl-ES       Galician
+gl-ES       gl-ES       Galician (Galician)
+gn          gn-PY       Guarani
+gn-PY       gn-PY       Guarani (Paraguay)
+gsw         gsw-CH      Swiss German
+gsw-CH      gsw-CH      Swiss German (Switzerland)
+gsw-FR      gsw-FR      Alsatian (France)
+gsw-LI      gsw-LI      Swiss German (Liechtenstein)
+gu          gu-IN       Gujarati
+gu-IN       gu-IN       Gujarati (India)
+guz         guz-KE      Gusii
+guz-KE      guz-KE      Gusii (Kenya)
+gv          gv-IM       Manx
+gv-IM       gv-IM       Manx (Isle of Man)
+ha          ha-Latn-NG  Hausa
+ha-Latn     ha-Latn-NG  Hausa (Latin)
+ha-Latn-GH  ha-Latn-GH  Hausa (Latin, Ghana)
+ha-Latn-NE  ha-Latn-NE  Hausa (Latin, Niger)
+ha-Latn-NG  ha-Latn-NG  Hausa (Latin, Nigeria)
+haw         haw-US      Hawaiian
+haw-US      haw-US      Hawaiian (United States)
+he          he-IL       Hebrew
+he-IL       he-IL       Hebrew (Israel)
+hi          hi-IN       Hindi
+hi-IN       hi-IN       Hindi (India)
+hr          hr-HR       Croatian
+hr-BA       hr-BA       Croatian (Bosnia and Herzegovina)
+hr-HR       hr-HR       Croatian (Croatia)
+hsb         hsb-DE      Upper Sorbian
+hsb-DE      hsb-DE      Upper Sorbian (Germany)
+hu          hu-HU       Hungarian
+hu-HU       hu-HU       Hungarian (Hungary)
+hy          hy-AM       Armenian
+hy-AM       hy-AM       Armenian (Armenia)
+ia          ia-FR       Interlingua
+ia-001      ia-001      Interlingua (World)
+ia-FR       ia-FR       Interlingua (France)
+ibb         ibb-NG      Ibibio
+ibb-NG      ibb-NG      Ibibio (Nigeria)
+id          id-ID       Indonesian
+id-ID       id-ID       Indonesian (Indonesia)
+ig          ig-NG       Igbo
+ig-NG       ig-NG       Igbo (Nigeria)
+ii          ii-CN       Yi
+ii-CN       ii-CN       Yi (China)
+is          is-IS       Icelandic
+is-IS       is-IS       Icelandic (Iceland)
+it          it-IT       Italian
+it-CH       it-CH       Italian (Switzerland)
+it-IT       it-IT       Italian (Italy)
+it-SM       it-SM       Italian (San Marino)
+it-VA       it-VA       Italian (Vatican City)
+iu          iu-Latn-CA  Inuktitut
+iu-Cans     iu-Cans-CA  Inuktitut (Syllabics)
+iu-Cans-CA  iu-Cans-CA  Inuktitut (Syllabics, Canada)
+iu-Latn     iu-Latn-CA  Inuktitut (Latin)
+iu-Latn-CA  iu-Latn-CA  Inuktitut (Latin, Canada)
+ja          ja-JP       Japanese
+ja-JP       ja-JP       Japanese (Japan)
+jgo         jgo-CM      Ngomba
+jgo-CM      jgo-CM      Ngomba (Cameroon)
+jmc         jmc-TZ      Machame
+jmc-TZ      jmc-TZ      Machame (Tanzania)
+jv          jv-Latn-ID  Javanese
+jv-Java     jv-Java-ID  Javanese (Javanese)
+jv-Java-ID  jv-Java-ID  Javanese (Javanese, Indonesia)
+jv-Latn     jv-Latn-ID  Javanese
+jv-Latn-ID  jv-Latn-ID  Javanese (Indonesia)
+ka          ka-GE       Georgian
+kab         kab-DZ      Kabyle
+kab-DZ      kab-DZ      Kabyle (Algeria)
+ka-GE       ka-GE       Georgian (Georgia)
+kam         kam-KE      Kamba
+kam-KE      kam-KE      Kamba (Kenya)
+kde         kde-TZ      Makonde
+kde-TZ      kde-TZ      Makonde (Tanzania)
+kea         kea-CV      Kabuverdianu
+kea-CV      kea-CV      Kabuverdianu (Cabo Verde)
+khq         khq-ML      Koyra Chiini
+khq-ML      khq-ML      Koyra Chiini (Mali)
+ki          ki-KE       Kikuyu
+ki-KE       ki-KE       Kikuyu (Kenya)
+kk          kk-KZ       Kazakh
+kkj         kkj-CM      Kako
+kkj-CM      kkj-CM      Kako (Cameroon)
+kk-KZ       kk-KZ       Kazakh (Kazakhstan)
+kl          kl-GL       Greenlandic
+kl-GL       kl-GL       Greenlandic (Greenland)
+kln         kln-KE      Kalenjin
+kln-KE      kln-KE      Kalenjin (Kenya)
+km          km-KH       Khmer
+km-KH       km-KH       Khmer (Cambodia)
+kn          kn-IN       Kannada
+kn-IN       kn-IN       Kannada (India)
+ko          ko-KR       Korean
+kok         kok-IN      Konkani
+kok-IN      kok-IN      Konkani (India)
+ko-KP       ko-KP       Korean (North Korea)
+ko-KR       ko-KR       Korean (Korea)
+kr          kr-NG       Kanuri
+kr-NG       kr-NG       Kanuri (Nigeria)
+ks          ks-Arab-IN  Kashmiri
+ks-Arab     ks-Arab-IN  Kashmiri (Perso-Arabic)
+ks-Arab-IN  ks-Arab-IN  Kashmiri (Perso-Arabic)
+ksb         ksb-TZ      Shambala
+ksb-TZ      ksb-TZ      Shambala (Tanzania)
+ks-Deva     ks-Deva-IN  Kashmiri (Devanagari)
+ks-Deva-IN  ks-Deva-IN  Kashmiri (Devanagari)
+ksf         ksf-CM      Bafia
+ksf-CM      ksf-CM      Bafia (Cameroon)
+ksh         ksh-DE      Colognian
+ksh-DE      ksh-DE      Colognian (Germany)
+ku          ku-Arab-IQ  Central Kurdish
+ku-Arab     ku-Arab-IQ  Central Kurdish
+ku-Arab-IQ  ku-Arab-IQ  Central Kurdish (Iraq)
+ku-Arab-IR  ku-Arab-IR  Kurdish (Perso-Arabic, Iran)
+kw          kw-GB       Cornish
+kw-GB       kw-GB       Cornish (United Kingdom)
+ky          ky-KG       Kyrgyz
+ky-KG       ky-KG       Kyrgyz (Kyrgyzstan)
+la          la-001      Latin
+la-001      la-001      Latin (World)
+lag         lag-TZ      Langi
+lag-TZ      lag-TZ      Langi (Tanzania)
+lb          lb-LU       Luxembourgish
+lb-LU       lb-LU       Luxembourgish (Luxembourg)
+lg          lg-UG       Ganda
+lg-UG       lg-UG       Ganda (Uganda)
+lkt         lkt-US      Lakota
+lkt-US      lkt-US      Lakota (United States)
+ln          ln-CD       Lingala
+ln-AO       ln-AO       Lingala (Angola)
+ln-CD       ln-CD       Lingala (Congo DRC)
+ln-CF       ln-CF       Lingala (Central African Republic)
+ln-CG       ln-CG       Lingala (Congo)
+lo          lo-LA       Lao
+lo-LA       lo-LA       Lao (Laos)
+lrc         lrc-IR      Northern Luri
+lrc-IQ      lrc-IQ      Northern Luri (Iraq)
+lrc-IR      lrc-IR      Northern Luri (Iran)
+lt          lt-LT       Lithuanian
+lt-LT       lt-LT       Lithuanian (Lithuania)
+lu          lu-CD       Luba-Katanga
+lu-CD       lu-CD       Luba-Katanga (Congo DRC)
+luo         luo-KE      Luo
+luo-KE      luo-KE      Luo (Kenya)
+luy         luy-KE      Luyia
+luy-KE      luy-KE      Luyia (Kenya)
+lv          lv-LV       Latvian
+lv-LV       lv-LV       Latvian (Latvia)
+mas         mas-KE      Masai
+mas-KE      mas-KE      Masai (Kenya)
+mas-TZ      mas-TZ      Masai (Tanzania)
+mer         mer-KE      Meru
+mer-KE      mer-KE      Meru (Kenya)
+mfe         mfe-MU      Morisyen
+mfe-MU      mfe-MU      Morisyen (Mauritius)
+mg          mg-MG       Malagasy
+mgh         mgh-MZ      Makhuwa-Meetto
+mgh-MZ      mgh-MZ      Makhuwa-Meetto (Mozambique)
+mg-MG       mg-MG       Malagasy (Madagascar)
+mgo         mgo-CM      Metaʼ
+mgo-CM      mgo-CM      Metaʼ (Cameroon)
+mi          mi-NZ       Maori
+mi-NZ       mi-NZ       Maori (New Zealand)
+mk          mk-MK       Macedonian
+mk-MK       mk-MK       Macedonian (Macedonia, FYRO)
+ml          ml-IN       Malayalam
+ml-IN       ml-IN       Malayalam (India)
+mn          mn-MN       Mongolian
+mn-Cyrl     mn-MN       Mongolian
+mni         mni-IN      Manipuri
+mni-IN      mni-IN      Manipuri (India)
+mn-MN       mn-MN       Mongolian (Mongolia)
+mn-Mong     mn-Mong-CN  Mongolian (Traditional Mongolian)
+mn-Mong-CN  mn-Mong-CN  Mongolian (Traditional Mongolian, China)
+mn-Mong-MN  mn-Mong-MN  Mongolian (Traditional Mongolian, Mongolia)
+moh         moh-CA      Mohawk
+moh-CA      moh-CA      Mohawk (Mohawk)
+mr          mr-IN       Marathi
+mr-IN       mr-IN       Marathi (India)
+ms          ms-MY       Malay
+ms-BN       ms-BN       Malay (Brunei)
+ms-MY       ms-MY       Malay (Malaysia)
+ms-SG       ms-SG       Malay (Singapore)
+mt          mt-MT       Maltese
+mt-MT       mt-MT       Maltese (Malta)
+mua         mua-CM      Mundang
+mua-CM      mua-CM      Mundang (Cameroon)
+my          my-MM       Burmese
+my-MM       my-MM       Burmese (Myanmar)
+mzn         mzn-IR      Mazanderani
+mzn-IR      mzn-IR      Mazanderani (Iran)
+naq         naq-NA      Nama
+naq-NA      naq-NA      Nama (Namibia)
+nb          nb-NO       Norwegian Bokmål
+nb-NO       nb-NO       Norwegian Bokmål (Norway)
+nb-SJ       nb-SJ       Norwegian Bokmål (Svalbard and Jan Mayen)
+nd          nd-ZW       North Ndebele
+nds         nds-DE      Low German
+nds-DE      nds-DE      Low German (Germany)
+nds-NL      nds-NL      Low German (Netherlands)
+nd-ZW       nd-ZW       North Ndebele (Zimbabwe)
+ne          ne-NP       Nepali
+ne-IN       ne-IN       Nepali (India)
+ne-NP       ne-NP       Nepali (Nepal)
+nl          nl-NL       Dutch
+nl-AW       nl-AW       Dutch (Aruba)
+nl-BE       nl-BE       Dutch (Belgium)
+nl-BQ       nl-BQ       Dutch (Bonaire, Sint Eustatius and Saba)
+nl-CW       nl-CW       Dutch (Curaçao)
+nl-NL       nl-NL       Dutch (Netherlands)
+nl-SR       nl-SR       Dutch (Suriname)
+nl-SX       nl-SX       Dutch (Sint Maarten)
+nmg         nmg-CM      Kwasio
+nmg-CM      nmg-CM      Kwasio (Cameroon)
+nn          nn-NO       Norwegian Nynorsk
+nnh         nnh-CM      Ngiemboon
+nnh-CM      nnh-CM      Ngiemboon (Cameroon)
+nn-NO       nn-NO       Norwegian Nynorsk (Norway)
+no          nb-NO       Norwegian
+nqo         nqo-GN      N'ko
+nqo-GN      nqo-GN      N'ko (Guinea)
+nr          nr-ZA       South Ndebele
+nr-ZA       nr-ZA       South Ndebele (South Africa)
+nso         nso-ZA      Sesotho sa Leboa
+nso-ZA      nso-ZA      Sesotho sa Leboa (South Africa)
+nus         nus-SS      Nuer
+nus-SS      nus-SS      Nuer (South Sudan)
+nyn         nyn-UG      Nyankole
+nyn-UG      nyn-UG      Nyankole (Uganda)
+oc          oc-FR       Occitan
+oc-FR       oc-FR       Occitan (France)
+om          om-ET       Oromo
+om-ET       om-ET       Oromo (Ethiopia)
+om-KE       om-KE       Oromo (Kenya)
+or          or-IN       Odia
+or-IN       or-IN       Odia (India)
+os          os-GE       Ossetic
+os-GE       os-GE       Ossetic (Georgia)
+os-RU       os-RU       Ossetic (Russia)
+pa          pa-IN       Punjabi
+pa-Arab     pa-Arab-PK  Punjabi
+pa-Arab-PK  pa-Arab-PK  Punjabi (Pakistan)
+pa-Guru     pa-IN       Punjabi
+pa-IN       pa-IN       Punjabi (India)
+pap         pap-029     Papiamento
+pap-029     pap-029     Papiamento (Caribbean)
+pl          pl-PL       Polish
+pl-PL       pl-PL       Polish (Poland)
+prg         prg-001     Prussian
+prg-001     prg-001     Prussian (World)
+prs         prs-AF      Dari
+prs-AF      prs-AF      Dari (Afghanistan)
+ps          ps-AF       Pashto
+ps-AF       ps-AF       Pashto (Afghanistan)
+pt          pt-BR       Portuguese
+pt-AO       pt-AO       Portuguese (Angola)
+pt-BR       pt-BR       Portuguese (Brazil)
+pt-CH       pt-CH       Portuguese (Switzerland)
+pt-CV       pt-CV       Portuguese (Cabo Verde)
+pt-GQ       pt-GQ       Portuguese (Equatorial Guinea)
+pt-GW       pt-GW       Portuguese (Guinea-Bissau)
+pt-LU       pt-LU       Portuguese (Luxembourg)
+pt-MO       pt-MO       Portuguese (Macao SAR)
+pt-MZ       pt-MZ       Portuguese (Mozambique)
+pt-PT       pt-PT       Portuguese (Portugal)
+pt-ST       pt-ST       Portuguese (São Tomé and Príncipe)
+pt-TL       pt-TL       Portuguese (Timor-Leste)
+quc         quc-Latn-GT K'iche'
+quc-Latn    quc-Latn-GT K'iche'
+quc-Latn-GT quc-Latn-GT K'iche' (Guatemala)
+quz         quz-BO      Quechua
+quz-BO      quz-BO      Quechua (Bolivia)
+quz-EC      quz-EC      Quichua (Ecuador)
+quz-PE      quz-PE      Quechua (Peru)
+rm          rm-CH       Romansh
+rm-CH       rm-CH       Romansh (Switzerland)
+rn          rn-BI       Rundi
+rn-BI       rn-BI       Rundi (Burundi)
+ro          ro-RO       Romanian
+rof         rof-TZ      Rombo
+rof-TZ      rof-TZ      Rombo (Tanzania)
+ro-MD       ro-MD       Romanian (Moldova)
+ro-RO       ro-RO       Romanian (Romania)
+ru          ru-RU       Russian
+ru-BY       ru-BY       Russian (Belarus)
+ru-KG       ru-KG       Russian (Kyrgyzstan)
+ru-KZ       ru-KZ       Russian (Kazakhstan)
+ru-MD       ru-MD       Russian (Moldova)
+ru-RU       ru-RU       Russian (Russia)
+ru-UA       ru-UA       Russian (Ukraine)
+rw          rw-RW       Kinyarwanda
+rwk         rwk-TZ      Rwa
+rwk-TZ      rwk-TZ      Rwa (Tanzania)
+rw-RW       rw-RW       Kinyarwanda (Rwanda)
+sa          sa-IN       Sanskrit
+sah         sah-RU      Sakha
+sah-RU      sah-RU      Sakha (Russia)
+sa-IN       sa-IN       Sanskrit (India)
+saq         saq-KE      Samburu
+saq-KE      saq-KE      Samburu (Kenya)
+sbp         sbp-TZ      Sangu
+sbp-TZ      sbp-TZ      Sangu (Tanzania)
+sd          sd-Arab-PK  Sindhi
+sd-Arab     sd-Arab-PK  Sindhi
+sd-Arab-PK  sd-Arab-PK  Sindhi (Pakistan)
+sd-Deva     sd-Deva-IN  Sindhi (Devanagari)
+sd-Deva-IN  sd-Deva-IN  Sindhi (Devanagari, India)
+se          se-NO       Northern Sami
+se-FI       se-FI       Sami, Northern (Finland)
+seh         seh-MZ      Sena
+seh-MZ      seh-MZ      Sena (Mozambique)
+se-NO       se-NO       Sami, Northern (Norway)
+ses         ses-ML      Koyraboro Senni
+se-SE       se-SE       Sami, Northern (Sweden)
+ses-ML      ses-ML      Koyraboro Senni (Mali)
+sg          sg-CF       Sango
+sg-CF       sg-CF       Sango (Central African Republic)
+shi         shi-Tfng-MA Tachelhit
+shi-Latn    shi-Latn-MA Tachelhit (Latin)
+shi-Latn-MA shi-Latn-MA Tachelhit (Latin, Morocco)
+shi-Tfng    shi-Tfng-MA Tachelhit (Tifinagh)
+shi-Tfng-MA shi-Tfng-MA Tachelhit (Tifinagh, Morocco)
+si          si-LK       Sinhala
+si-LK       si-LK       Sinhala (Sri Lanka)
+sk          sk-SK       Slovak
+sk-SK       sk-SK       Slovak (Slovakia)
+sl          sl-SI       Slovenian
+sl-SI       sl-SI       Slovenian (Slovenia)
+sma         sma-SE      Sami (Southern)
+sma-NO      sma-NO      Sami, Southern (Norway)
+sma-SE      sma-SE      Sami, Southern (Sweden)
+smj         smj-SE      Sami (Lule)
+smj-NO      smj-NO      Sami, Lule (Norway)
+smj-SE      smj-SE      Sami, Lule (Sweden)
+smn         smn-FI      Sami (Inari)
+smn-FI      smn-FI      Sami, Inari (Finland)
+sms         sms-FI      Sami (Skolt)
+sms-FI      sms-FI      Sami, Skolt (Finland)
+sn          sn-Latn-ZW  Shona
+sn-Latn     sn-Latn-ZW  Shona (Latin)
+sn-Latn-ZW  sn-Latn-ZW  Shona (Latin, Zimbabwe)
+so          so-SO       Somali
+so-DJ       so-DJ       Somali (Djibouti)
+so-ET       so-ET       Somali (Ethiopia)
+so-KE       so-KE       Somali (Kenya)
+so-SO       so-SO       Somali (Somalia)
+sq          sq-AL       Albanian
+sq-AL       sq-AL       Albanian (Albania)
+sq-MK       sq-MK       Albanian (Macedonia, FYRO)
+sq-XK       sq-XK       Albanian (Kosovo)
+sr          sr-Latn-RS  Serbian
+sr-Cyrl     sr-Cyrl-RS  Serbian (Cyrillic)
+sr-Cyrl-BA  sr-Cyrl-BA  Serbian (Cyrillic, Bosnia and Herzegovina)
+sr-Cyrl-ME  sr-Cyrl-ME  Serbian (Cyrillic, Montenegro)
+sr-Cyrl-RS  sr-Cyrl-RS  Serbian (Cyrillic, Serbia)
+sr-Cyrl-XK  sr-Cyrl-XK  Serbian (Cyrillic, Kosovo)
+sr-Latn     sr-Latn-RS  Serbian (Latin)
+sr-Latn-BA  sr-Latn-BA  Serbian (Latin, Bosnia and Herzegovina)
+sr-Latn-ME  sr-Latn-ME  Serbian (Latin, Montenegro)
+sr-Latn-RS  sr-Latn-RS  Serbian (Latin, Serbia)
+sr-Latn-XK  sr-Latn-XK  Serbian (Latin, Kosovo)
+ss          ss-ZA       siSwati
+ss-SZ       ss-SZ       siSwati (Swaziland)
+ssy         ssy-ER      Saho
+ssy-ER      ssy-ER      Saho (Eritrea)
+ss-ZA       ss-ZA       siSwati (South Africa)
+st          st-ZA       Sesotho
+st-LS       st-LS       Sesotho (Lesotho)
+st-ZA       st-ZA       Sesotho (South Africa)
+sv          sv-SE       Swedish
+sv-AX       sv-AX       Swedish (Åland Islands)
+sv-FI       sv-FI       Swedish (Finland)
+sv-SE       sv-SE       Swedish (Sweden)
+sw          sw-KE       Kiswahili
+sw-CD       sw-CD       Kiswahili (Congo DRC)
+sw-KE       sw-KE       Kiswahili (Kenya)
+sw-TZ       sw-TZ       Kiswahili (Tanzania)
+sw-UG       sw-UG       Kiswahili (Uganda)
+syr         syr-SY      Syriac
+syr-SY      syr-SY      Syriac (Syria)
+ta          ta-IN       Tamil
+ta-IN       ta-IN       Tamil (India)
+ta-LK       ta-LK       Tamil (Sri Lanka)
+ta-MY       ta-MY       Tamil (Malaysia)
+ta-SG       ta-SG       Tamil (Singapore)
+te          te-IN       Telugu
+te-IN       te-IN       Telugu (India)
+teo         teo-UG      Teso
+teo-KE      teo-KE      Teso (Kenya)
+teo-UG      teo-UG      Teso (Uganda)
+tg          tg-Cyrl-TJ  Tajik
+tg-Cyrl     tg-Cyrl-TJ  Tajik (Cyrillic)
+tg-Cyrl-TJ  tg-Cyrl-TJ  Tajik (Cyrillic, Tajikistan)
+th          th-TH       Thai
+th-TH       th-TH       Thai (Thailand)
+ti          ti-ER       Tigrinya
+ti-ER       ti-ER       Tigrinya (Eritrea)
+ti-ET       ti-ET       Tigrinya (Ethiopia)
+tig         tig-ER      Tigre
+tig-ER      tig-ER      Tigre (Eritrea)
+tk          tk-TM       Turkmen
+tk-TM       tk-TM       Turkmen (Turkmenistan)
+tn          tn-ZA       Setswana
+tn-BW       tn-BW       Setswana (Botswana)
+tn-ZA       tn-ZA       Setswana (South Africa)
+to          to-TO       Tongan
+to-TO       to-TO       Tongan (Tonga)
+tr          tr-TR       Turkish
+tr-CY       tr-CY       Turkish (Cyprus)
+tr-TR       tr-TR       Turkish (Turkey)
+ts          ts-ZA       Tsonga
+ts-ZA       ts-ZA       Xitsonga (South Africa)
+tt          tt-RU       Tatar
+tt-RU       tt-RU       Tatar (Russia)
+twq         twq-NE      Tasawaq
+twq-NE      twq-NE      Tasawaq (Niger)
+tzm         tzm-Latn-DZ Central Atlas Tamazight
+tzm-Arab    tzm-Arab-MA Central Atlas Tamazight (Arabic)
+tzm-Arab-MA tzm-Arab-MA Central Atlas Tamazight (Arabic, Morocco)
+tzm-Latn    tzm-Latn-DZ Central Atlas Tamazight (Latin)
+tzm-Latn-DZ tzm-Latn-DZ Central Atlas Tamazight (Latin, Algeria)
+tzm-Latn-MA tzm-Latn-MA Central Atlas Tamazight (Latin, Morocco)
+tzm-Tfng    tzm-Tfng-MA Central Atlas Tamazight (Tifinagh)
+tzm-Tfng-MA tzm-Tfng-MA Central Atlas Tamazight (Tifinagh, Morocco)
+ug          ug-CN       Uyghur
+ug-CN       ug-CN       Uyghur (China)
+uk          uk-UA       Ukrainian
+uk-UA       uk-UA       Ukrainian (Ukraine)
+ur          ur-PK       Urdu
+ur-IN       ur-IN       Urdu (India)
+ur-PK       ur-PK       Urdu (Pakistan)
+uz          uz-Latn-UZ  Uzbek
+uz-Arab     uz-Arab-AF  Uzbek (Perso-Arabic)
+uz-Arab-AF  uz-Arab-AF  Uzbek (Perso-Arabic, Afghanistan)
+uz-Cyrl     uz-Cyrl-UZ  Uzbek (Cyrillic)
+uz-Cyrl-UZ  uz-Cyrl-UZ  Uzbek (Cyrillic, Uzbekistan)
+uz-Latn     uz-Latn-UZ  Uzbek (Latin)
+uz-Latn-UZ  uz-Latn-UZ  Uzbek (Latin, Uzbekistan)
+vai         vai-Vaii-LR Vai
+vai-Latn    vai-Latn-LR Vai (Latin)
+vai-Latn-LR vai-Latn-LR Vai (Latin, Liberia)
+vai-Vaii    vai-Vaii-LR Vai (Vai)
+vai-Vaii-LR vai-Vaii-LR Vai (Vai, Liberia)
+ve          ve-ZA       Venda
+ve-ZA       ve-ZA       Venda (South Africa)
+vi          vi-VN       Vietnamese
+vi-VN       vi-VN       Vietnamese (Vietnam)
+vo          vo-001      Volapük
+vo-001      vo-001      Volapük (World)
+vun         vun-TZ      Vunjo
+vun-TZ      vun-TZ      Vunjo (Tanzania)
+wae         wae-CH      Walser
+wae-CH      wae-CH      Walser (Switzerland)
+wal         wal-ET      Wolaytta
+wal-ET      wal-ET      Wolaytta (Ethiopia)
+wo          wo-SN       Wolof
+wo-SN       wo-SN       Wolof (Senegal)
+xh          xh-ZA       isiXhosa
+xh-ZA       xh-ZA       isiXhosa (South Africa)
+xog         xog-UG      Soga
+xog-UG      xog-UG      Soga (Uganda)
+yav         yav-CM      Yangben
+yav-CM      yav-CM      Yangben (Cameroon)
+yi          yi-001      Yiddish
+yi-001      yi-001      Yiddish (World)
+yo          yo-NG       Yoruba
+yo-BJ       yo-BJ       Yoruba (Benin)
+yo-NG       yo-NG       Yoruba (Nigeria)
+zgh         zgh-Tfng-MA Standard Moroccan Tamazight
+zgh-Tfng    zgh-Tfng-MA Standard Moroccan Tamazight (Tifinagh)
+zgh-Tfng-MA zgh-Tfng-MA Standard Moroccan Tamazight (Tifinagh, Morocco)
+zh          zh-CN       Chinese
+zh-CHS      zh-CN       Chinese (Simplified) Legacy
+zh-CHT      zh-HK       Chinese (Traditional) Legacy
+zh-CN       zh-CN       Chinese (Simplified, China)
+zh-Hans     zh-CN       Chinese (Simplified)
+zh-Hans-HK  zh-Hans-HK  Chinese (Simplified Han, Hong Kong SAR)
+zh-Hans-MO  zh-Hans-MO  Chinese (Simplified Han, Macao SAR)
+zh-Hant     zh-HK       Chinese (Traditional)
+zh-HK       zh-HK       Chinese (Traditional, Hong Kong SAR)
+zh-MO       zh-MO       Chinese (Traditional, Macao SAR)
+zh-SG       zh-SG       Chinese (Simplified, Singapore)
+zh-TW       zh-TW       Chinese (Traditional, Taiwan)
+zu          zu-ZA       isiZulu
+zu-ZA       zu-ZA       isiZulu (South Africa)

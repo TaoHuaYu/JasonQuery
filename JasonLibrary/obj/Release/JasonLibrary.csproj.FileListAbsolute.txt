@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\bin\Release\JasonLibrary.dll
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\bin\Release\JasonLibrary.pdb
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\bin\Release\PoorMansTSqlFormatterLib.dll
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\bin\Release\ScintillaNET.dll
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\bin\Release\ScintillaNET.pdb
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\bin\Release\ScintillaNET.xml
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\obj\Release\JasonLibrary.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\obj\Release\JasonLibrary.AutocompleteListView.resources
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\obj\Release\JasonLibrary.AutocompleteMenu.resources
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\obj\Release\System.Windows.Forms.ThemeColorPicker.resources
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\obj\Release\System.Windows.Forms.ThemeColorPickerWindow.resources
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\obj\Release\JasonLibrary.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\obj\Release\JasonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\obj\Release\JasonLibrary.csproj.CopyComplete
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\obj\Release\JasonLibrary.dll
+C:\Users\Administrator\Desktop\JasonQuery\JasonLibrary\obj\Release\JasonLibrary.pdb

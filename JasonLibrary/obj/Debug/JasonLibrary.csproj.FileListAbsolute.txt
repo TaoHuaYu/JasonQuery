@@ -1,0 +1,14 @@
+D:\code\JasonQuery\JasonLibrary\bin\Debug\JasonLibrary.dll
+D:\code\JasonQuery\JasonLibrary\bin\Debug\JasonLibrary.pdb
+D:\code\JasonQuery\JasonLibrary\bin\Debug\ScintillaNET.dll
+D:\code\JasonQuery\JasonLibrary\bin\Debug\ScintillaNET.pdb
+D:\code\JasonQuery\JasonLibrary\bin\Debug\ScintillaNET.xml
+D:\code\JasonQuery\JasonLibrary\obj\Debug\JasonLibrary.csproj.AssemblyReference.cache
+D:\code\JasonQuery\JasonLibrary\obj\Debug\JasonLibrary.ColorPicker.ThemeColorPicker.resources
+D:\code\JasonQuery\JasonLibrary\obj\Debug\JasonLibrary.ColorPicker.ThemeColorPickerWindow.resources
+D:\code\JasonQuery\JasonLibrary\obj\Debug\JasonLibrary.csproj.GenerateResource.cache
+D:\code\JasonQuery\JasonLibrary\obj\Debug\JasonLibrary.dll.licenses
+D:\code\JasonQuery\JasonLibrary\obj\Debug\JasonLibrary.csproj.CoreCompileInputs.cache
+D:\code\JasonQuery\JasonLibrary\obj\Debug\JasonLibrary.csproj.CopyComplete
+D:\code\JasonQuery\JasonLibrary\obj\Debug\JasonLibrary.dll
+D:\code\JasonQuery\JasonLibrary\obj\Debug\JasonLibrary.pdb
